@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,300&family=Mali:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poopins', sans-serif;
+    margin: 0;
+    background-color: rgb(202, 230, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+h2{
+    color: rgb(25, 13, 244);
+    font-size: 7rem;
+    text-align: center;
+    opacity: 0.2;
+}
+
+form{
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 1px 1px 7px rgb(88 107 255);
+}
+
+.input{
+    background-color: whitesmoke;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    border: none;
+    opacity: 0.6;
+}
+
+.input::placeholder{
+    color: black
+    
+}
+
+.todos{
+    border-top: 1px solid rgb(213, 213, 213);
+    background-color: whitesmoke ;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    opacity: 0.8;
+}
+
+.todos li{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.todos li.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+small{
+    color: rgb(144, 144, 144);
+    margin-top: 1rem;
+    text-align: center;
+}
